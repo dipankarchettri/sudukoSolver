@@ -75,6 +75,7 @@ def if_solved(bo):
         print("The board is not solvable")
 
 #___main___
+# the board to be solved 
 board = [
     [7,8,0,4,0,0,1,2,0],
     [6,0,0,0,7,5,0,0,5],
@@ -84,7 +85,7 @@ board = [
     [9,0,4,0,6,0,0,0,5],
     [0,7,0,3,0,0,0,1,2],
     [1,2,0,0,0,7,4,0,0],
-    [0,4,9,2,0,6,0,0,7]# the board to be solved 
+    [0,4,9,2,0,6,0,0,7]
 ]
 
 print("The unsolved board")
